@@ -1,0 +1,467 @@
+.attribution {
+   font-size: 11px; text-align: center;
+ }
+.attribution a {
+   color: hsl(228, 45%, 44%);
+  }
+
+body{
+  background-color: hsl(218, 28%, 13%);
+  color: hsl(0, 0%, 100%);
+  font-size: 13.5px;
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+  overflow-x: hidden;
+  font-weight: 400;
+}
+
+h1, h2, h3, h4, .navbar, .button{
+  font-family: 'Raleway', sans-serif;
+}
+
+
+.navbar, .intro{
+  background-color: hsl(217, 28%, 15%);
+}
+
+
+.navbar{
+  margin: 0;
+  padding: 2rem;
+}
+
+.nav-list ul{
+  list-style: none;
+  margin: 0 2.5rem;
+  display: inline-block;
+  float:right;
+}
+
+.nav-list li{
+  float: right;
+  padding: 1rem;
+}
+.nav-list li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.logo{
+  display: inline-block;
+  float: left;
+  margin: 2.5rem;
+}
+
+.intro{
+  margin-bottom: 2rem;
+  padding-bottom:2.3rem;
+}
+
+.big-image, .heading{
+  padding: 2rem 8rem;
+  text-align: center;
+  position: relative;
+  z-index: 2;
+}
+
+.big-image img{
+  margin: 1rem 2rem;
+  width:80%;
+}
+
+.heading h1{
+  margin: 1.5rem 2rem 1rem 0 ;
+  padding: 1.5rem  2.5rem;
+
+}
+.heading p{
+  margin: 1.5rem 2.5rem;
+  padding: 0 9rem;
+  line-height: 1.8;
+  font-size:15px;
+}
+
+.button{
+  color:white;
+  border-radius: 20px;
+  width: 12rem;
+  height: 2.5rem;
+  border-style: none;
+  background: linear-gradient(to right, hsl(176, 68%, 64%), hsl(198, 60%, 50%));
+}
+
+.desktop-image img{
+  width: 110%;
+  margin:0;
+  position: absolute;
+  z-index: 1;
+  top: 54rem;
+  padding: 0;
+}
+.mobile-image{
+  display: none;
+}
+
+.third-container{
+  padding-top: 0;
+  margin-top: 0;
+}
+
+.row1, .row2{
+  margin: 3rem 3rem;
+}
+
+.access, .security, .store, .collaboration{
+  display: inline-block;
+  width: 18%;
+  padding: 1rem 3rem 3rem;
+  align-items: center;
+  text-align: center;
+}
+
+.access, .security, .store, .collaboration p{
+  line-height: 1.5;
+  padding: 0 5rem;
+}
+.access img{
+  padding: 1rem;
+}
+.security img{
+  padding: 1rem;
+}
+.collaboration img{
+  padding:1rem;
+}
+.store img{
+  padding: 1.8rem;
+}
+
+.image, .words{
+  display: inline-block;
+  width: 27%;
+}
+
+.image img{
+  width: 100%;
+}
+
+.fifth-container{
+  margin: 2rem;
+}
+
+.testimonials{
+  padding: 6rem 6rem 15rem;
+}
+.card1{
+  border-radius: 5px;
+  background-color: hsl(219, 30%, 18%);
+  margin: 0 1rem;
+  padding:2rem 1rem 1.4rem;
+}
+.card1 p{
+  line-height: 1.5;
+}
+
+.c-footer img{
+  border-radius: 100%;
+  height: 1.5rem;
+  width: 1.5rem;
+  display: inline-block;
+  margin-bottom:1.5rem;
+}
+
+.c-footer p{
+  display: block;
+  margin:0 0.1rem 0 0;
+}
+
+.profile{
+  display: inline-block;
+  margin: 1rem 0.5rem 0;
+}
+
+.fourth-container{
+  padding: 2.5rem;
+}
+.words{
+  padding-top: 3rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.words a{
+  color: hsl(176, 68%, 64%);
+  border-bottom: 1px solid currentColor;
+}
+
+.words p{
+  line-height: 1.5;
+  font-weight: 400;
+}
+.quote{
+  position: relative;
+  top:7rem;
+  left: 5rem;
+  z-index:-1;
+}
+
+.sign-up{
+  background-color: hsl(217, 28%, 15%);
+  position:relative;
+  bottom: 7rem;
+  margin: 0 8rem;
+  padding: 1.3rem 3rem 2rem;
+  text-align: center;
+}
+
+.sign-up p{
+  line-height: 1.5;
+  margin: 2rem 1rem;
+}
+.sign-up input{
+  width: 75%;
+  height: 2.5rem;
+  border-radius: 20px;
+  float: left;
+  text-indent: 30px;
+  border: 1px solid white;
+  color:hsl(10, 2%, 75%);
+  font-size: 10px;
+}
+
+.sign-up button{
+  float: right;
+  margin:0 0.5rem;
+  width: 20%;
+}
+
+.footer{
+  background-color: hsl(216, 53%, 9%);
+  padding-top:0;
+  padding-bottom: 15rem;
+}
+.footer li{
+  list-style: none;
+}
+.footer a{
+  color: white;
+}
+.footer li{
+  margin: 1.2rem 0;
+}
+
+.footer-info{
+  padding-left: 4rem;
+  -ms-flex: 0 0 41%;
+  flex: 0 0 41%;
+  max-width: 41%;
+}
+.footer-info p{
+  line-height: 1.5;
+  padding-left: 2.5rem;
+  padding-right: 2rem;
+
+}
+
+.f-lorem img{
+  position: relative;
+  top:1.9rem;
+
+}
+.contact{
+  margin-top: 3.7rem;
+  margin-bottom: 4rem;
+  -ms-flex: 0 0 20%;
+  flex: 0 0 20%;
+  max-width: 20%;
+}
+
+.contact img{
+  margin-right:0.5rem;
+}
+
+.about, .terms{
+  margin-top: 3.7rem;
+  -ms-flex: 0 0 11.666667%;
+  flex: 0 0 11.666667%;
+  max-width: 11.666667%;
+}
+.social{
+  margin-top: 3.7rem;
+  -ms-flex: 0 0 14.666667%;
+  flex: 0 0 14.666667%;
+  max-width: 14.666667%;
+}
+
+.social li{
+  display: inline-block;
+  margin: 0 0.5rem;
+  line-height: 2;
+}
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+
+
+@media (max-width:1028px) {
+  body{
+    font-size: 12px;
+    padding: 0;
+    margin:0;
+  }
+  .navbar, .nav-list{
+    margin: 0;
+    padding: 0;
+  }
+  .nav-list ul{
+    list-style: none;
+    margin: 0 0.5rem 0 0;
+    display: inline-block;
+    float:right;
+    padding: 0;
+    width: 100%;
+  }
+
+  .nav-list li{
+    padding:0 0.7rem;
+    display: inline-block;
+  }
+  .nav-list li a {
+    color: white;
+    text-align: center;
+    padding:0;
+    text-decoration: none;
+  }
+
+  .logo {
+    padding: 0;
+    margin: 0;
+    width: 30%;
+  }
+
+  .logo img{
+    width: 100%;
+  }
+.intro{
+  margin:0;
+  text-align: center;
+  padding: 0;
+}
+.big-image, .heading{
+  margin:auto;
+  padding:0;
+}
+.heading h1{
+  margin: auto;
+}
+.heading p{
+  margin: 0;
+  padding: 0 2.5rem 3rem;
+}
+.heading button{
+  margin-bottom: 1.5rem;
+}
+.third-container{
+  padding-top: 5rem;
+  margin-top: 0;
+}
+.third-container p{
+  padding: 0 1rem;
+}
+.third-container img{
+  margin:0;
+  padding: 0;
+}
+
+.access, .security, .store, .collaboration{
+  display: block;
+  width: 100%;
+  align-items: center;
+  text-align: center;
+}
+.security{
+  margin-top: 2rem;
+}
+.collaboration {
+  margin-top: 1rem;
+}
+
+.desktop-image{
+  display: none;
+  display:block;
+  width: 100%;
+  margin:0;
+  position: absolute;
+  bottom: 52rem;
+  right: 15rem;
+  z-index: 1;
+ padding: 0;
+}
+
+.row1, .row2{
+  margin:0;
+  padding: 0;
+}
+
+.fourth-container{
+  padding:0;
+}
+.image img{
+  width: 100%;
+}
+.words{
+  padding:3rem;
+}
+.words p{
+  padding: 0;
+  margin: 0;
+}
+
+.testimonials{
+  padding: 3rem 0 15rem;
+}
+.card1{
+  margin: 1rem 2rem;
+  padding:1rem;
+}
+
+.sign-up{
+  position:relative;
+  bottom: 12rem;
+  padding: 1rem;
+  margin: 0 2rem;
+}
+.sign-up input{
+  width:100%;
+}
+.sign-up button{
+  width: 100%;
+  margin: 1rem 0;
+}
+.quote{
+  position: relative;
+  top:5rem;
+  left: 1rem;
+}
+
+.footer{
+  padding: 1rem 1rem;
+}
+.footer-info, .contact, .about, .social, .terms{
+  -ms-flex: 0 0 100%;
+  flex: 0 0 100%;
+  max-width: 100%;
+}
+.footer-logo{
+  margin: 0;
+}
+.footer-info{
+  padding: 0 2rem 0 1.5rem;
+}
+.social{
+  padding-left: 25%;
+}
+}
